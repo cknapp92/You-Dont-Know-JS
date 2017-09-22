@@ -284,7 +284,7 @@ bar(); // 2
 setTimeout( bar, 100 ); // 2
 
 // `bar` hard binds `foo`'s `this` to `obj`
-// so that it cannot be overriden
+// so that it cannot be overridden
 bar.call( window ); // 2
 ```
 
